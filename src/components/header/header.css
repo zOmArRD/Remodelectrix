@@ -1,0 +1,10 @@
+#appLogo {
+    font-family: Evermore, serif;
+    color: white;
+}
+
+@media (prefers-color-scheme: light) {
+    #appLogo {
+        color: black;
+    }
+}
