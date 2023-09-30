@@ -1,8 +1,6 @@
 import './header.css'
+import {contactWhatsapp} from "../../utils.tsx";
 
-export function contactWhatsapp() {
-    return "https://api.whatsapp.com/send?phone=14703348648&text=Hola%20Remodelectrix"
-}
 
 export default function Header() {
     return (
@@ -16,7 +14,7 @@ export default function Header() {
                     </div>
                     <div className="lg:flex lg:flex-1 lg:justify-end">
                         <a href={contactWhatsapp()} className="text-2xs font-semibold leading-6">
-                            Contáctenos<span aria-hidden="true">&rarr;</span>
+                            Contáctenos <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
                 </nav>

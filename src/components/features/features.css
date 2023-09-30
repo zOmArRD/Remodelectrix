@@ -1,0 +1,34 @@
+.features {
+    background-color: white;
+}
+
+.t-gray-900 {
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.t-indigo-600 {
+    --tw-text-opacity: 1;
+    color: rgb(88 80 236 / var(--tw-text-opacity))
+}
+
+.t-gray-600 {
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: light) {
+    .features {
+        background-color: #242424;
+    }
+
+    .t-gray-900 {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+
+    .t-gray-600 {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+}
