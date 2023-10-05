@@ -1,8 +1,8 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import Contact from "./pages/Contact.tsx";
 import ExternalRedirect from "./components/redirect/ExternalRedirect.tsx";
+import Showcase from "./pages/Showcase.tsx";
 
 const router = createBrowserRouter([
     {
@@ -19,7 +19,12 @@ const router = createBrowserRouter([
     },
     {
         path: "/contact",
-        element: <Contact/>
+        // element: <Contact/>
+        element: <Navigate to={"/whatsapp"}/>
+    },
+    {
+        path: "/showcase",
+        element: <Showcase/>
     },
     {
         path: "/whatsapp",

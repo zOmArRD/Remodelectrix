@@ -17,12 +17,23 @@ const i18n = i18next
                         contact_us: "Contact Us ",
                     },
                     home: {
-                        "about_us": "About Us",
-                        "press_here": "Press here",
-                        "slogan": "Quality and Commitment is what we stand for",
-                        "slogan_desc": "We are remodeling and electrical experts focused on transforming spaces with precision and passion. Every detail counts and we strive to exceed your expectations on every project.",
-                        "contact_us": "Contact Us",
-                        "learn_more": "See More "
+                        about_us: "About Us",
+                        press_here: "Press here",
+                        slogan: "Quality and Commitment is what we stand for",
+                        slogan_desc: "We are remodeling and electrical experts focused on transforming spaces with precision and passion. Every detail counts and we strive to exceed your expectations on every project.",
+                        contact_us: "Contact Us",
+                        learn_more: "See More ",
+                        get_in_touch: "Get in touch",
+                        get_in_touch_desc: "Our friendly team is always here to chat.",
+                        email: "Email",
+                        email_desc: "Our friendly team is here to help.",
+                        facebook_follow: "Follow us on Facebook",
+                        phone_whatsapp: "Phone / Whatsapp",
+                        phone_whatsapp_desc: "Mon-Fri from 8am to 5pm.",
+                        our_work_title: "Our Work",
+
+                        our_work_desc: "Conoce algunos de nuestros trabajos realizados, en los cuales hemos demostrado nuestra calidad y profesionalismo.",
+                        our_work_see_more: "See more"
                     },
                     features: {
                         title: "Excellence guaranteed",
@@ -50,12 +61,22 @@ const i18n = i18next
                         contact_us: "Contáctenos ",
                     },
                     home: {
-                        "about_us": "¿Sobre nosotros?",
-                        "press_here": "Presiona aquí",
-                        "slogan": "Calidad y Compromiso es nuestro significado",
-                        "slogan_desc": "Somos expertos en remodelación y electricidad, enfocados en transformar espacios con precisión y pasión. Cada detalle cuenta, y estamos dedicados a superar tus expectativas en cada proyecto.",
-                        "contact_us": "Contáctenos",
-                        "learn_more": "Saber más "
+                        about_us: "¿Sobre nosotros?",
+                        press_here: "Presiona aquí",
+                        slogan: "Calidad y Compromiso es nuestro significado",
+                        slogan_desc: "Somos expertos en remodelación y electricidad, enfocados en transformar espacios con precisión y pasión. Cada detalle cuenta, y estamos dedicados a superar tus expectativas en cada proyecto.",
+                        contact_us: "Contáctenos",
+                        learn_more: "Saber más ",
+                        get_in_touch: "Póngase en contacto",
+                        get_in_touch_desc: "Nuestro amable equipo está siempre a su disposición para charlar.",
+                        email: "Correo electrónico",
+                        email_desc: "Nuestro amable equipo está aquí para ayudarle.",
+                        facebook_follow: "Síguenos en Facebook",
+                        phone_whatsapp: "Celular / Whatsapp",
+                        phone_whatsapp_desc: "De lunes a viernes, de 8.00 a 17.00 h.",
+                        our_work_title: "Algunos de nuestros trabajos realizados",
+                        our_work_desc: "Conoce algunos de nuestros trabajos realizados, en los cuales hemos demostrado nuestra calidad y profesionalismo.",
+                        our_work_see_more: "Ver más"
                     },
                     features: {
                         title: "Excelencia garantizada",

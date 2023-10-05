@@ -58,6 +58,14 @@
     transform: scale(1.1);
 }
 
+.img-showcase {
+    transition: transform 0.3s;
+}
+
+.img-showcase:hover {
+    transform: scale(1.1);
+}
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
@@ -85,6 +93,11 @@ h1 {
 /* Estilo cuando se pasa el mouse sobre el texto */
 .text-with-underline:hover::after {
     transform: scaleX(1); /* Al pasar el mouse, la línea se expande horizontalmente a una escala de 1 */
+}
+
+.tf-green-600 {
+    color: red;
+    background-color: white;
 }
 
 @media (prefers-color-scheme: light) {
@@ -132,3 +145,4 @@ h1 {
         visibility: hidden;
     }
 }
+

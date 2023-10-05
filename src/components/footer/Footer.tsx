@@ -18,19 +18,6 @@ export default function Footer() {
                                    className="-m-1.5 p-1.5 text-xs text-expand tracking-tight sm:text-lg">
                                     Remodelectrix
                                 </a>
-
-
-                                {/*<div className="flex flex-wrap justify-center mt-6 -mx-4">
-                                    <a href="{{ url('/dashboard') }}"
-                                       className="mx-4 text-sm t-gray-300 transition-colors duration-300 hover:text-green-500"
-                                       aria-label="Reddit"> Panel </a>
-                                    <a href="{{ url('/soon') }}"
-                                       className="mx-4 text-sm t-gray-300 transition-colors duration-300 hover:text-green-500"
-                                       aria-label="Reddit"> Equipo </a>
-                                    <a href="{{ url('/soon') }}"
-                                       className="mx-4 text-sm t-gray-300 transition-colors duration-300 hover:text-green-500"
-                                       aria-label="Reddit"> Privacidad </a>
-                                </div>*/}
                             </div>
 
                             <div className="my-6 md:my-10 flex flex-col sm:flex-row sm:justify-between">
