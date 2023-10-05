@@ -202,7 +202,7 @@ export default function Home() {
                                     Facebook
                                 </h2>
                                 <p className="mt-2 t-gray-900">
-                                    {t('facebook_follow')}
+                                    {t('home.facebook_follow')}
                                 </p>
                                 <a
                                     href="/facebook"
