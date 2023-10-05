@@ -29,14 +29,106 @@
     -webkit-text-size-adjust: 100%;
 }
 
+.text_dark {
+    color: #213547;
+}
+
+.cus {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#appLogo {
+    font-family: Evermore, serif;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #b4b661, #0e9f6e);
+}
+
+#slogan {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #b4b661, #0e9f6e);
+}
+
+.text-expand {
+    transition: transform 0.2s;
+}
+
+.text-expand:hover {
+    transform: scale(1.1);
+}
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
+}
+
+/* Estilo base para el texto */
+.text-with-underline {
+    position: relative; /* Necesario para el posicionamiento del elemento ::after */
+}
+
+/* Estilo para la línea blanca debajo del texto */
+.text-with-underline::after {
+    content: ''; /* Agregamos contenido al elemento ::after */
+    position: absolute; /* Lo posicionamos de manera absoluta con respecto al elemento padre */
+    width: 100%; /* La línea ocupa todo el ancho del elemento padre */
+    height: 2px; /* Altura de la línea */
+    background-color: white; /* Color de la línea */
+    bottom: 0; /* La línea está en la parte inferior del elemento padre */
+    left: 0; /* Comienza desde la izquierda del elemento padre */
+    transform: scaleX(0); /* Inicialmente, la línea tiene una escala de 0 en el eje X */
+    transform-origin: left; /* El punto de transformación es la izquierda */
+    transition: transform 0.2s; /* Agregamos una transición para la animación */
+}
+
+/* Estilo cuando se pasa el mouse sobre el texto */
+.text-with-underline:hover::after {
+    transform: scaleX(1); /* Al pasar el mouse, la línea se expande horizontalmente a una escala de 1 */
 }
 
 @media (prefers-color-scheme: light) {
     :root {
         color: #213547;
         background-color: #ffffff;
+    }
+
+    .cus,
+    .text_dark {
+        color: #213547;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fade-out {
+    animation: fadeOut 1s ease-in-out forwards;
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
     }
 }

@@ -17,6 +17,11 @@
     color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.t-green-600 {
+    --tw-text-opacity: 1;
+    color: rgb(5 122 85 / var(--tw-text-opacity));
+}
+
 @media (prefers-color-scheme: light) {
     .features {
         background-color: #242424;
@@ -30,5 +35,9 @@
     .t-gray-600 {
         --tw-text-opacity: 1;
         color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+
+    .t-green-600 {
+        color: rgb(10, 225, 159);
     }
 }
